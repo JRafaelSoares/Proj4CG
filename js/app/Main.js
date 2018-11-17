@@ -44,9 +44,22 @@ class Main {
         
         // Field
 
-        this.field = new Field(0, 0, 0, 100, this.greyPhongMaterial);
+        var fieldTexture = new THREE.TextureLoader().load('/js/textures/chess_table.jpg');
+        this.fieldPhongMaterial = new THREE.MeshPhongMaterial({map: fieldTexture, wireframe: false});
+
+        this.field = new Field(0, 0, 0, 500, this.fieldPhongMaterial);
 
         this.scene.add(this.field);
+
+        //Ball
+
+        var ballTexture = new THREE.TextureLoader().load('/js/textures/ball.jpg');
+        this.ballMaterial = new THREE.MeshPhongMaterial({map: ballTexture, wireframe: false});
+
+        this.ballRadius = 40;
+        this.ball = new Ball(0, this.ballRadius, -100, this.ballRadius, 100, 0.1, this.ballMaterial);
+
+        this.scene.add(this.ball);
 
         // Sun Directional Light 
         this.sun = new Sun(200, 200, 0, 0xffffff, this.baseIntensity);
@@ -70,7 +83,7 @@ class Main {
 
         this.camera = new THREE.PerspectiveCamera(90, window.innerWidth / window.innerHeight, 0.1, 1000); 
 
-        this.camera.position.set(200,200,100);
+        this.camera.position.set(0,200,100);
 
         this.camera.lookAt(0,0,0);
 
@@ -109,7 +122,6 @@ class Main {
             this.camera.updateProjectionMatrix();
         }
 
-
     }
 
     keyboardDownEvent(k) {
@@ -117,7 +129,7 @@ class Main {
 
         switch(k) {
             case 66: //B 
-                //Stop the ball movement
+                this.ball.toggleMovement();
                 break;
 
             case 68: //D
@@ -155,6 +167,7 @@ class Main {
     update(){
 
         var t = this.clock.getDelta();
+        this.ball.update(t);
 
     }
 
