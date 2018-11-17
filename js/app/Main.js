@@ -56,8 +56,8 @@ class Main {
         var ballTexture = new THREE.TextureLoader().load('/js/textures/ball.jpg');
         this.ballMaterial = new THREE.MeshPhongMaterial({map: ballTexture, wireframe: false});
 
-        this.ballRadius = 40;
-        this.ball = new Ball(0, this.ballRadius, -100, this.ballRadius, 100, 0.1, this.ballMaterial);
+        this.ballRadius = 20;
+        this.ball = new Ball(0, this.ballRadius, -100, this.ballRadius, 100, this.ballMaterial);
 
         this.scene.add(this.ball);
 

@@ -1,23 +1,27 @@
 class Ball extends GraphicalEntity{
     
-    constructor(x, y, z, radius, circleRadius, frequency, material){
+    constructor(x, y, z, radius, circleRadius, material){
         super();
-        
+
         this.radius = radius;
         this.circleRadius = circleRadius;
-        this.freq = frequency;
-        
-        /* Create Ball */
-        var geometry = new THREE.SphereGeometry(this.radius, this.radius * 0.5, this.radius * 0.5);
+
+        this.freq = 0.1;
+        this.w = 0;
+        this.attrition = 0.5;
+        this.acceleration = 0;
+        this.defaultAcceleration = 0.5;
+
+        // Create inner ball
+        var geometry = new THREE.SphereGeometry(this.radius, this.radius * 1, this.radius * 1);
         this.mesh = new THREE.Mesh(geometry, material);
-        
-        this.add(this.mesh);
+
+        // Create ball
+        this.ball = new THREE.Object3D();
+        this.ball.add(this.mesh);
+        this.add(this.ball);
 
         this.position.set(x, y, z);
-
-        this.speed = 2*Math.PI * this.radius * this.getT;
-        this.w = 2*Math.PI * this.freq;
-        this.a = 5;
 
         /* Create axis helper */
         this.axisHelper = new THREE.AxesHelper(this.radius * 1.5);
@@ -28,11 +32,25 @@ class Ball extends GraphicalEntity{
 
     update(t){
 
-        var linearMove = this.speed * t;
-        this.rotation.y += this.w*t + this.a*t*t/2;
-        /* Rotate mesh around itself according to its speed */
-        //this.mesh.rotation.x = linearMove / this.radius;
+        var speed = this.w * this.radius;
+        var linearMove = speed * t + 0.5 * actualAcceleration / this.radius * t * t;
         
+        /* Rotate mesh around itself according to its speed */
+        this.ball.rotation.z -= linearMove / this.radius;
+
+        // movement of the ball
+        var actualAcceleration = this.acceleration - this.attrition * this.w;
+        this.w += actualAcceleration * t;
+
+        this.rotation.y += this.w * t + 0.5 * actualAcceleration * t * t;
+
+        /* this.w max : this.acceleration/this.attrtion = 1 */
+        if(this.w > 0.99){
+            this.w = 1;
+        }
+        else if(this.w < 0.01 && this.w > -0.01){
+            this.w = 0;
+        }
         this.position.x = this.circleRadius * Math.sin(this.rotation.y);
         this.position.z = this.circleRadius * Math.cos(this.rotation.y);
 
@@ -44,10 +62,6 @@ class Ball extends GraphicalEntity{
     }
 
     toggleMovement(){
-        this.a = -this.a;
-    }
-
-    toggleAcceleration(){
-
+        this.acceleration = (this.acceleration == 0 ? this.defaultAcceleration : 0);
     }
 }
