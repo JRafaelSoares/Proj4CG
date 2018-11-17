@@ -12,6 +12,9 @@ class Main {
 
         document.body.appendChild(this.renderer.domElement);
         
+        this.defaultWidth = 600;
+        this.defaultHeight = 1200;
+
         this.createCamera();
         this.createScene();
 
@@ -23,14 +26,20 @@ class Main {
     createScene() {
         'use strict';
         
-        this.scene = new THREE.Scene();
+        //Main scene (0) and Pause (1)
+        this.scenes = new Array(2);
+        
+        this.scenes[0] = new THREE.Scene();
+
+        //Active (0) or Paused (1)
+        this.mode = 0;
 
         // Intensity of the sun
         this.baseIntensity = 1;
 
         this.axisHelper = new THREE.AxesHelper(200);
         this.axisHelper.visible = false;
-        this.scene.add(this.axisHelper);
+        this.scenes[0].add(this.axisHelper);
         
 
         // Materials 
@@ -46,12 +55,12 @@ class Main {
 
         this.field = new Field(0, 0, 0, 100, this.greyPhongMaterial);
 
-        this.scene.add(this.field);
+        this.scenes[0].add(this.field);
 
         // Sun Directional Light 
         this.sun = new Sun(200, 200, 0, 0xffffff, this.baseIntensity);
 
-        this.scene.add(this.sun);
+        this.scenes[0].add(this.sun);
         
         
         // Create Spotlight
@@ -61,18 +70,56 @@ class Main {
         
         this.spotlight = new Spotlight(50, 50, 50, 5, [materialSpotlight, materialLight]);
         
-        this.scene.add(this.spotlight);
+        this.scenes[0].add(this.spotlight);
+
+        //Pause scene and objects
+
         
+        this.scenes[1] = new THREE.Scene();
+        /*
+
+        var loader = new THREE.FontLoader();
+
+        loader.load( 'js/app/fonts/optimer_regular.typeface.json', function ( font ) {
+
+            this.pause_text = new THREE.TextBufferGeometry( 'PAUSED', {
+                font: font,
+                size: 80,
+                height: 5,
+                curveSegments: 12,
+                bevelEnabled: true,
+                bevelThickness: 10,
+                bevelSize: 8,
+                bevelSegments: 5
+            } );
+        } );
+        
+        this.pause_text.position.set(0,0,0);
+
+        */
+
     }
 
     createCamera() {
         'use strict';
 
-        this.camera = new THREE.PerspectiveCamera(90, window.innerWidth / window.innerHeight, 0.1, 1000); 
+        this.cameraList = new Array(2);
+        //cameraList[0]: Pespective
+        //cameraList[1]: Ortographic
+        
+        this.cameraList[0] = new THREE.PerspectiveCamera(90, window.innerWidth / window.innerHeight, 0.1, 1000); 
 
-        this.camera.position.set(200,200,100);
+        this.cameraList[0].position.set(200, 200, 100);
 
-        this.camera.lookAt(0,0,0);
+        this.cameraList[0].lookAt(0, 0, 0);
+
+
+        this.cameraList[1] = new THREE.OrthographicCamera(window.innerWidth / -2, window.innerWidth / 2, window.innerHeight / 2, window.innerHeight / -2, 1, 1000);
+
+        this.cameraList[1].position.set(0, 200, 0);
+
+        this.cameraList[1].lookAt(0, 0, 0);
+
 
         this.resizeEvent();
 
@@ -80,7 +127,7 @@ class Main {
 
     render() {
         'use strict';
-        this.renderer.render(this.scene, this.camera);
+        this.renderer.render(this.scenes[this.mode], this.cameraList[this.mode]);
     }
 
 
@@ -104,9 +151,27 @@ class Main {
         
         if (window.innerHeight > 0 && window.innerWidth > 0) {
 
-            this.camera.aspect = this.windowRatio;
+            if(this.defaultAspectRatio >= this.windowRatio){
+
+                //Ortogonal camera 
+                this.cameraList[1].top = (this.defaultWidth * (1 / this.windowRatio)) / 2;
+                this.cameraList[1].bottom = -(this.defaultWidth * (1 / this.windowRatio)) / 2;
+
+            }
+            else {
+
+                //Ortogonal camera
+                this.cameraList[1].left = -(this.defaultHeight * this.windowRatio) / 2; 
+                this.cameraList[1].right = (this.defaultHeight * this.windowRatio) / 2; 
+
+            }
+
+
+            this.cameraList[0].aspect = this.windowRatio;
             
-            this.camera.updateProjectionMatrix();
+            for (var i = 0; i < 2; i++){
+                this.cameraList[i].updateProjectionMatrix();
+            }
         }
 
 
@@ -141,7 +206,9 @@ class Main {
                 break;
             
             case 83: //S
-                //Pause Game
+                //Pause
+                this.mode = (this.mode == 0 ? 1 : 0);
+                //this.mode = !this.mode;
                 break;
             
             case 87: //W
