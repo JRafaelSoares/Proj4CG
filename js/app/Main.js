@@ -53,6 +53,7 @@ class Main {
 
         this.scenes[0].add(this.field);
 
+        //this.controls.target = this.field;
         // Sun Directional Light 
         this.sun = new Sun(200, 200, 0, 0xffffff, this.baseIntensity);
 
@@ -106,6 +107,10 @@ class Main {
 
         this.cameraList[1].lookAt(0, 0, 0);
 
+        //Camera Controls
+        this.controls = new THREE.OrbitControls(this.cameraList[0]);
+
+        this.controls.autoRotate = true;
 
         this.resizeEvent();
 
@@ -209,6 +214,8 @@ class Main {
 
         var t = this.clock.getDelta();
 
+        //Makes camera AutoRotate
+        this.controls.update();
     }
 
     toggleNightMode(){
