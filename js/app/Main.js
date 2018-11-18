@@ -203,7 +203,7 @@ class Main {
                 break;
             
             case 87: //W
-                this.toggleWireframe();
+                //this.toggleWireframe();
                 break;
         }
 
@@ -212,10 +212,12 @@ class Main {
 
     update(){
 
-        var t = this.clock.getDelta();
-
-        //Makes camera AutoRotate
-        this.controls.update();
+        if(this.mode == 0){
+            var t = this.clock.getDelta();
+        
+            //Makes camera AutoRotate
+            this.controls.update();
+        }
     }
 
     toggleNightMode(){
