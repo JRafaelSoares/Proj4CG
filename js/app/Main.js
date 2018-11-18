@@ -59,8 +59,10 @@ class Main {
 
         var cubeTextures = new Array(6);
 
+        var bMap = loader.load("BumpMapTest.png");
+
         for(var i = 0; i < 6; i++){
-            cubeTextures[i] = new THREE.MeshPhongMaterial({color: 0xffffff, map: loader.load(faceFiles[i])});
+            cubeTextures[i] = new THREE.MeshPhongMaterial({color: 0xffffff, map: loader.load(faceFiles[i]), bumpMap: bMap});
         }
         
         /* Create Base */
