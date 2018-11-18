@@ -28,20 +28,20 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>three-jsnext/optimer_regular.typeface.json at master · rollup/three-jsnext</title>
-    <meta name="description" content="three.js, but futuristic. Contribute to rollup/three-jsnext development by creating an account on GitHub.">
+  <title>three.js/optimer_regular.typeface.json at master · mrdoob/three.js</title>
+    <meta name="description" content="JavaScript 3D library. Contribute to mrdoob/three.js development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
 
     
-    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/12554859?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="rollup/three-jsnext" /><meta property="og:url" content="https://github.com/rollup/three-jsnext" /><meta property="og:description" content="three.js, but futuristic. Contribute to rollup/three-jsnext development by creating an account on GitHub." />
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/97088?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="mrdoob/three.js" /><meta property="og:url" content="https://github.com/mrdoob/three.js" /><meta property="og:description" content="JavaScript 3D library. Contribute to mrdoob/three.js development by creating an account on GitHub." />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MzIwOTI3NTI4OmE2MDIyZmZkNGQ0ZDQyMzYwN2Y3NDYwZmE5YTFkMGRkNmM2ZjY3YWU4ZmI5OGY1YTVmMjU2MmJhNWNhYTEwODE=--ed013f9ddcaaa086335a0b54c34226f0875f77cc">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6MzIwOTI3NTI4OjE1ODA2ZGQxOTYzZWNlOWVkM2U2OTlhM2Q4OTJjZWI0N2FhMmUzYTJiZjY5NDEwZGIzZGYyYWI2ZDM3ZGMwYWU=--d2c05f58a04743bf816f45c471b3abefbf40fe61">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="DFA3:43DA9:2B42207:408ECD7:5BF02FAD" data-pjax-transient>
+  <meta name="request-id" content="E5A1:43DA1:26D2D15:3A2922C:5BF14520" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="DFA3:43DA9:2B42207:408ECD7:5BF02FAD" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="37113319" /><meta name="octolytics-actor-login" content="JRafaelSoares" /><meta name="octolytics-actor-hash" content="5f648cd26ed979a993c46406e2459120b97f8d2697e5244917918272e7225188" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="E5A1:43DA1:26D2D15:3A2922C:5BF14520" /><meta name="octolytics-dimension-region_edge" content="ams" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="37113319" /><meta name="octolytics-actor-login" content="JRafaelSoares" /><meta name="octolytics-actor-hash" content="5f648cd26ed979a993c46406e2459120b97f8d2697e5244917918272e7225188" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -71,7 +71,7 @@
     <meta name="user-login" content="JRafaelSoares">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="NmY4ZmE5NzhiZWJlNjE0M2FkMWNmNDgyZGEzNDZhNjZlZmNhZDAwMzQyZjgzMzFkMWI3OTVjYWViMjkyMDQ5YXx7InJlbW90ZV9hZGRyZXNzIjoiNDYuMTg5LjIxNi4xNjMiLCJyZXF1ZXN0X2lkIjoiREZBMzo0M0RBOToyQjQyMjA3OjQwOEVDRDc6NUJGMDJGQUQiLCJ0aW1lc3RhbXAiOjE1NDI0Njc1MTgsImhvc3QiOiJnaXRodWIuY29tIn0=">
+    <meta name="js-proxy-site-detection-payload" content="Zjg0MGYyYmVlOWM2OTBkY2FiZTBhMjlkZDlkZjcxYTBmZmYzYTEwNmNkZDBmMDhlY2RkZGFiMjM5NTZmYTI3ZXx7InJlbW90ZV9hZGRyZXNzIjoiNDYuMTg5LjIxNi4xNjMiLCJyZXF1ZXN0X2lkIjoiRTVBMTo0M0RBMToyNkQyRDE1OjNBMjkyMkM6NUJGMTQ1MjAiLCJ0aW1lc3RhbXAiOjE1NDI1Mzg1MzQsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="DASHBOARD_V2_LAYOUT_OPT_IN,EXPLORE_DISCOVER_REPOSITORIES,UNIVERSE_BANNER,MARKETPLACE_PLAN_RESTRICTION_EDITOR,NOTIFY_ON_BLOCK,SAVED_THREADS,SUGGESTED_CHANGES_UX_TEST,SUGGESTED_CHANGES_BATCH,RELATED_ISSUES,MARKETPLACE_INSIGHTS_V2">
 
@@ -80,14 +80,14 @@
   <meta http-equiv="x-pjax-version" content="a494fa1e938f8696095c82d14bac9f4e">
   
 
-      <link href="https://github.com/rollup/three-jsnext/commits/master.atom" rel="alternate" title="Recent Commits to three-jsnext:master" type="application/atom+xml">
+      <link href="https://github.com/mrdoob/three.js/commits/master.atom" rel="alternate" title="Recent Commits to three.js:master" type="application/atom+xml">
 
-  <meta name="go-import" content="github.com/rollup/three-jsnext git https://github.com/rollup/three-jsnext.git">
+  <meta name="go-import" content="github.com/mrdoob/three.js git https://github.com/mrdoob/three.js.git">
 
-  <meta name="octolytics-dimension-user_id" content="12554859" /><meta name="octolytics-dimension-user_login" content="rollup" /><meta name="octolytics-dimension-repository_id" content="38784344" /><meta name="octolytics-dimension-repository_nwo" content="rollup/three-jsnext" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="38784344" /><meta name="octolytics-dimension-repository_network_root_nwo" content="rollup/three-jsnext" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+  <meta name="octolytics-dimension-user_id" content="97088" /><meta name="octolytics-dimension-user_login" content="mrdoob" /><meta name="octolytics-dimension-repository_id" content="576201" /><meta name="octolytics-dimension-repository_nwo" content="mrdoob/three.js" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="576201" /><meta name="octolytics-dimension-repository_network_root_nwo" content="mrdoob/three.js" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/rollup/three-jsnext/blob/master/examples/fonts/optimer_regular.typeface.json" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/mrdoob/three.js/blob/master/examples/fonts/optimer_regular.typeface.json" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -143,7 +143,7 @@
   aria-expanded="false"
 >
   <div class="position-relative">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="38784344" data-scoped-search-url="/rollup/three-jsnext/search" data-unscoped-search-url="/search" action="/rollup/three-jsnext/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="576201" data-scoped-search-url="/mrdoob/three.js/search" data-unscoped-search-url="/search" action="/mrdoob/three.js/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
       <label class="form-control header-search-wrapper header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
         <input type="text"
           class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
@@ -157,7 +157,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search or jump to…"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=EPMVSrXcDewK8LW50IJWaGCs8cPqEY9APUHHmj3xzxXfxFaokpjh4Vs3zzW6Sr8GFW2CUaxl+yPYKwwyjYh7BA=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=cirY0FLuuJAAtHs3e2kAtQEYlORFkJt6fDI6JuvpCSm9HZsydapUnVFzAbsRoenbdNnndgPk7xmZWPGOW5C9OA=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -277,9 +277,9 @@
 
   <div class="dropdown-divider"></div>
   <div class="dropdown-header">
-    <span title="rollup/three-jsnext">This repository</span>
+    <span title="mrdoob/three.js">This repository</span>
   </div>
-    <a role="menuitem" class="dropdown-item" href="/rollup/three-jsnext/issues/new" data-ga-click="Header, create new issue">
+    <a role="menuitem" class="dropdown-item" href="/mrdoob/three.js/issues/new" data-ga-click="Header, create new issue">
       New issue
     </a>
 
@@ -311,7 +311,7 @@
           <li><a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a></li>
           <li><a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a></li>
           <li>
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="qQdTBe5LLXuHvceSrymigqrL8wb7S4DpBlDvVrZXvY2wlVJpo7+6yhGp7aHVll09GSaUiopqA+XzvUQUonwuOA==" />
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="DPlWaWOIungQN+av2XJitstJ6EAgkBwFPDkLrPzPLvQVa1cFLnwtyYYjzJyjzZ0JeKSPzFGxnwnJ1KDu6OS9QQ==" />
               <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
                 Sign out
               </button>
@@ -324,7 +324,7 @@
 
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="yNN/XHfRvHy5NIAiGsGx7P71M0XVXgCkZyj9um1QeIfRQX4wOiUrzS8gqhFgfk5TTRhUyaR/g6iSxVb4eXvrMg==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="DTedl7dXc5Gep4lZpFtvx13bt0ZXJPEaog6MJ0kTMRwUpZz7+qPkIAizo2re5JB47jbQyiYFchZX4ydlXTiiqQ==" />
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -355,8 +355,6 @@
 
 
 
-  
-
 
 
   <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
@@ -364,7 +362,7 @@
 
       <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="HQQ7h38MrzC8KmOqL82zauSupwRUeUoaSMLQ+ZVJUIAXmcTnBoeH66ZSFSRpwBcqpnMJ0Wls+zq4NY0E057BhA==" />      <input type="hidden" name="repository_id" id="repository_id" value="38784344" class="form-control" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="TvzbmZMT7QrFCYdxuP+Hgx344ckGs61J0fp5osv0CwpEYST56pjF0d9x8f/+8iPDXyVPHDumHGkhDSRfjSOaDg==" />      <input type="hidden" name="repository_id" id="repository_id" value="576201" class="form-control" />
 
       <details class="details-reset details-overlay select-menu float-left">
         <summary class="btn btn-sm btn-with-count select-menu-button" data-ga-click="Repository, click Watch settings, action:blob#show">
@@ -418,9 +416,9 @@
         </details-menu>
       </details>
       <a class="social-count js-social-count"
-        href="/rollup/three-jsnext/watchers"
-        aria-label="11 users are watching this repository">
-        11
+        href="/mrdoob/three.js/watchers"
+        aria-label="2411 users are watching this repository">
+        2,411
       </a>
 </form>
   </li>
@@ -428,63 +426,63 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/rollup/three-jsnext/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="1QDVh3uOiv+sZoMGUzCjf/KOU+ckaoid9dYaIidULgfaRU4ZVOixl2obrpQlv0elqkzB3wjhmGmMNd1nFrc83A==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/mrdoob/three.js/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="mDFSrrj/HDl1YGF2Nwalsuz/+OWA30Zox0mqCBfPEBRaU16dxCOZIyG5OkAL8q58DtroDIrk6DPzcVJ1h7MnDw==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
         class="btn btn-sm btn-with-count js-toggler-target"
-        aria-label="Unstar this repository" title="Unstar rollup/three-jsnext"
+        aria-label="Unstar this repository" title="Unstar mrdoob/three.js"
         data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
         <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Unstar
       </button>
-        <a class="social-count js-social-count" href="/rollup/three-jsnext/stargazers"
-           aria-label="67 users starred this repository">
-          67
+        <a class="social-count js-social-count" href="/mrdoob/three.js/stargazers"
+           aria-label="46323 users starred this repository">
+          46,323
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/rollup/three-jsnext/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="74Iu2tHfgNdWJegGj6DI7W2F2B1P2rUS+O/uwGiIF1HUPjbDmHOJd1LKQCnkpf+Fue8Oo2+KMDPCaybvhzmcBA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/mrdoob/three.js/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="1gKDaaodGZmGEKmdK1Y17g0qePENs0YNKeSZPr8ZlAXa8DztuC3pb6o5dpPmVLCqjYKEkMuosdDFqfBVKX76Ag==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
         class="btn btn-sm btn-with-count js-toggler-target"
-        aria-label="Star this repository" title="Star rollup/three-jsnext"
+        aria-label="Star this repository" title="Star mrdoob/three.js"
         data-ga-click="Repository, click star button, action:blob#show; text:Star">
         <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Star
       </button>
-        <a class="social-count js-social-count" href="/rollup/three-jsnext/stargazers"
-           aria-label="67 users starred this repository">
-          67
+        <a class="social-count js-social-count" href="/mrdoob/three.js/stargazers"
+           aria-label="46323 users starred this repository">
+          46,323
         </a>
 </form>  </div>
 
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/rollup/three-jsnext/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="wdEoorN+bppKbCsl2xnB4h8zEA8VpVxaEMFF/PhOr/WDtw+UzesMz9yhHUZMn7Gk+Je4GB7GqSPSw4KWQOMXvg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/mrdoob/three.js/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="uIdOOZNibdKBuHQiZpltBciANbWXR7gmPsFtPC8zxAu3qwlHX16evnnahbaD8om/MaEsAjDpw5EfFVZmYKwu0Q==" />
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
                 data-ga-click="Repository, show fork modal, action:blob#show; text:Fork"
-                title="Fork your own copy of rollup/three-jsnext to your account"
-                aria-label="Fork your own copy of rollup/three-jsnext to your account">
+                title="Fork your own copy of mrdoob/three.js to your account"
+                aria-label="Fork your own copy of mrdoob/three.js to your account">
               <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
             </button>
 </form>
-    <a href="/rollup/three-jsnext/network/members" class="social-count"
-       aria-label="40 users forked this repository">
-      40
+    <a href="/mrdoob/three.js/network/members" class="social-count"
+       aria-label="17562 users forked this repository">
+      17,562
     </a>
   </li>
 </ul>
 
       <h1 class="public ">
   <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
-  <span class="author" itemprop="author"><a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/rollup/hovercard" href="/rollup">rollup</a></span><!--
+  <span class="author" itemprop="author"><a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=97088" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/mrdoob">mrdoob</a></span><!--
 --><span class="path-divider">/</span><!--
---><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/rollup/three-jsnext">three-jsnext</a></strong>
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/mrdoob/three.js">three.js</a></strong>
 
 </h1>
 
@@ -497,40 +495,40 @@
      data-pjax="#js-repo-pjax-container">
 
   <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /rollup/three-jsnext" href="/rollup/three-jsnext">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /mrdoob/three.js/tree/master" href="/mrdoob/three.js/tree/master">
       <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
       <span itemprop="name">Code</span>
       <meta itemprop="position" content="1">
 </a>  </span>
 
     <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /rollup/three-jsnext/issues" href="/rollup/three-jsnext/issues">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /mrdoob/three.js/issues" href="/mrdoob/three.js/issues">
         <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
         <span itemprop="name">Issues</span>
-        <span class="Counter">5</span>
+        <span class="Counter">566</span>
         <meta itemprop="position" content="2">
 </a>    </span>
 
   <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /rollup/three-jsnext/pulls" href="/rollup/three-jsnext/pulls">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /mrdoob/three.js/pulls" href="/mrdoob/three.js/pulls">
       <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
       <span itemprop="name">Pull requests</span>
-      <span class="Counter">0</span>
+      <span class="Counter">190</span>
       <meta itemprop="position" content="3">
 </a>  </span>
 
 
-    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /rollup/three-jsnext/projects" href="/rollup/three-jsnext/projects">
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /mrdoob/three.js/projects" href="/mrdoob/three.js/projects">
       <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
       Projects
-      <span class="Counter" >0</span>
+      <span class="Counter" >1</span>
 </a>
 
-    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /rollup/three-jsnext/wiki" href="/rollup/three-jsnext/wiki">
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /mrdoob/three.js/wiki" href="/mrdoob/three.js/wiki">
       <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
       Wiki
 </a>
-  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse alerts /rollup/three-jsnext/pulse" href="/rollup/three-jsnext/pulse">
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse alerts /mrdoob/three.js/pulse" href="/mrdoob/three.js/pulse">
     <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
     Insights
 </a>
@@ -546,9 +544,9 @@
     
 
   
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/rollup/three-jsnext/blob/253dbac8d0959a2f467a23b27dd97065d55da4c0/examples/fonts/optimer_regular.typeface.json">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/mrdoob/three.js/blob/5360a81b8c557ed255e97b87c49e7d00b546b795/examples/fonts/optimer_regular.typeface.json">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v21:e0e973e556bbdb68d89ee7e15b7b0ac8 -->
+    <!-- blob contrib key: blob_contributors:v21:4cdb70a57c9511caf2b8851e4a7c56b0 -->
 
     
 
@@ -592,17 +590,27 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/rollup/three-jsnext/blob/browserify-test/examples/fonts/optimer_regular.typeface.json"
-               data-name="browserify-test"
+               href="/mrdoob/three.js/blob/dev/examples/fonts/optimer_regular.typeface.json"
+               data-name="dev"
                data-skip-pjax="true"
                rel="nofollow">
               <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
               <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
-                browserify-test
+                dev
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/mrdoob/three.js/blob/gh-pages/examples/fonts/optimer_regular.typeface.json"
+               data-name="gh-pages"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                gh-pages
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/rollup/three-jsnext/blob/master/examples/fonts/optimer_regular.typeface.json"
+               href="/mrdoob/three.js/blob/master/examples/fonts/optimer_regular.typeface.json"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -621,23 +629,903 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/rollup/three-jsnext/tree/v0.3.0/examples/fonts/optimer_regular.typeface.json"
-              data-name="v0.3.0"
+              href="/mrdoob/three.js/tree/r98/examples/fonts/optimer_regular.typeface.json"
+              data-name="r98"
               data-skip-pjax="true"
               rel="nofollow">
               <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-              <span class="select-menu-item-text css-truncate-target" title="v0.3.0">
-                v0.3.0
+              <span class="select-menu-item-text css-truncate-target" title="r98">
+                r98
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-              href="/rollup/three-jsnext/tree/v0.2.0/examples/fonts/optimer_regular.typeface.json"
-              data-name="v0.2.0"
+              href="/mrdoob/three.js/tree/r97/examples/fonts/optimer_regular.typeface.json"
+              data-name="r97"
               data-skip-pjax="true"
               rel="nofollow">
               <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
-              <span class="select-menu-item-text css-truncate-target" title="v0.2.0">
-                v0.2.0
+              <span class="select-menu-item-text css-truncate-target" title="r97">
+                r97
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r96/examples/fonts/optimer_regular.typeface.json"
+              data-name="r96"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r96">
+                r96
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r95/examples/fonts/optimer_regular.typeface.json"
+              data-name="r95"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r95">
+                r95
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r94/examples/fonts/optimer_regular.typeface.json"
+              data-name="r94"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r94">
+                r94
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r93/examples/fonts/optimer_regular.typeface.json"
+              data-name="r93"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r93">
+                r93
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r92/examples/fonts/optimer_regular.typeface.json"
+              data-name="r92"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r92">
+                r92
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r91/examples/fonts/optimer_regular.typeface.json"
+              data-name="r91"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r91">
+                r91
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r90/examples/fonts/optimer_regular.typeface.json"
+              data-name="r90"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r90">
+                r90
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r89/examples/fonts/optimer_regular.typeface.json"
+              data-name="r89"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r89">
+                r89
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r88/examples/fonts/optimer_regular.typeface.json"
+              data-name="r88"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r88">
+                r88
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r87/examples/fonts/optimer_regular.typeface.json"
+              data-name="r87"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r87">
+                r87
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r86/examples/fonts/optimer_regular.typeface.json"
+              data-name="r86"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r86">
+                r86
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r85/examples/fonts/optimer_regular.typeface.json"
+              data-name="r85"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r85">
+                r85
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r84/examples/fonts/optimer_regular.typeface.json"
+              data-name="r84"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r84">
+                r84
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r83/examples/fonts/optimer_regular.typeface.json"
+              data-name="r83"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r83">
+                r83
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r82/examples/fonts/optimer_regular.typeface.json"
+              data-name="r82"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r82">
+                r82
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r81/examples/fonts/optimer_regular.typeface.json"
+              data-name="r81"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r81">
+                r81
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r80/examples/fonts/optimer_regular.typeface.json"
+              data-name="r80"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r80">
+                r80
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r79/examples/fonts/optimer_regular.typeface.json"
+              data-name="r79"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r79">
+                r79
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r78/examples/fonts/optimer_regular.typeface.json"
+              data-name="r78"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r78">
+                r78
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r77/examples/fonts/optimer_regular.typeface.json"
+              data-name="r77"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r77">
+                r77
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r76/examples/fonts/optimer_regular.typeface.json"
+              data-name="r76"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r76">
+                r76
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r75/examples/fonts/optimer_regular.typeface.json"
+              data-name="r75"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r75">
+                r75
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r74/examples/fonts/optimer_regular.typeface.json"
+              data-name="r74"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r74">
+                r74
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r73/examples/fonts/optimer_regular.typeface.json"
+              data-name="r73"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r73">
+                r73
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r72/examples/fonts/optimer_regular.typeface.json"
+              data-name="r72"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r72">
+                r72
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r71/examples/fonts/optimer_regular.typeface.json"
+              data-name="r71"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r71">
+                r71
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r70/examples/fonts/optimer_regular.typeface.json"
+              data-name="r70"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r70">
+                r70
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r69/examples/fonts/optimer_regular.typeface.json"
+              data-name="r69"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r69">
+                r69
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r68/examples/fonts/optimer_regular.typeface.json"
+              data-name="r68"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r68">
+                r68
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r67/examples/fonts/optimer_regular.typeface.json"
+              data-name="r67"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r67">
+                r67
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r66/examples/fonts/optimer_regular.typeface.json"
+              data-name="r66"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r66">
+                r66
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r65/examples/fonts/optimer_regular.typeface.json"
+              data-name="r65"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r65">
+                r65
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r64/examples/fonts/optimer_regular.typeface.json"
+              data-name="r64"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r64">
+                r64
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r63/examples/fonts/optimer_regular.typeface.json"
+              data-name="r63"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r63">
+                r63
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r62/examples/fonts/optimer_regular.typeface.json"
+              data-name="r62"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r62">
+                r62
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r61/examples/fonts/optimer_regular.typeface.json"
+              data-name="r61"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r61">
+                r61
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r60/examples/fonts/optimer_regular.typeface.json"
+              data-name="r60"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r60">
+                r60
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r59/examples/fonts/optimer_regular.typeface.json"
+              data-name="r59"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r59">
+                r59
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r58/examples/fonts/optimer_regular.typeface.json"
+              data-name="r58"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r58">
+                r58
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r57/examples/fonts/optimer_regular.typeface.json"
+              data-name="r57"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r57">
+                r57
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r56/examples/fonts/optimer_regular.typeface.json"
+              data-name="r56"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r56">
+                r56
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r55/examples/fonts/optimer_regular.typeface.json"
+              data-name="r55"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r55">
+                r55
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r54/examples/fonts/optimer_regular.typeface.json"
+              data-name="r54"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r54">
+                r54
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r53/examples/fonts/optimer_regular.typeface.json"
+              data-name="r53"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r53">
+                r53
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r52/examples/fonts/optimer_regular.typeface.json"
+              data-name="r52"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r52">
+                r52
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r51/examples/fonts/optimer_regular.typeface.json"
+              data-name="r51"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r51">
+                r51
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r50/examples/fonts/optimer_regular.typeface.json"
+              data-name="r50"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r50">
+                r50
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r49/examples/fonts/optimer_regular.typeface.json"
+              data-name="r49"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r49">
+                r49
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r48/examples/fonts/optimer_regular.typeface.json"
+              data-name="r48"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r48">
+                r48
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r47/examples/fonts/optimer_regular.typeface.json"
+              data-name="r47"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r47">
+                r47
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r46/examples/fonts/optimer_regular.typeface.json"
+              data-name="r46"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r46">
+                r46
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r45/examples/fonts/optimer_regular.typeface.json"
+              data-name="r45"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r45">
+                r45
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r44/examples/fonts/optimer_regular.typeface.json"
+              data-name="r44"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r44">
+                r44
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r43/examples/fonts/optimer_regular.typeface.json"
+              data-name="r43"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r43">
+                r43
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r42/examples/fonts/optimer_regular.typeface.json"
+              data-name="r42"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r42">
+                r42
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r41/ROME/examples/fonts/optimer_regular.typeface.json"
+              data-name="r41/ROME"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r41/ROME">
+                r41/ROME
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r40/examples/fonts/optimer_regular.typeface.json"
+              data-name="r40"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r40">
+                r40
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r39/examples/fonts/optimer_regular.typeface.json"
+              data-name="r39"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r39">
+                r39
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r38/examples/fonts/optimer_regular.typeface.json"
+              data-name="r38"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r38">
+                r38
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r37/examples/fonts/optimer_regular.typeface.json"
+              data-name="r37"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r37">
+                r37
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r36/examples/fonts/optimer_regular.typeface.json"
+              data-name="r36"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r36">
+                r36
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r35/examples/fonts/optimer_regular.typeface.json"
+              data-name="r35"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r35">
+                r35
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r34/examples/fonts/optimer_regular.typeface.json"
+              data-name="r34"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r34">
+                r34
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r33/examples/fonts/optimer_regular.typeface.json"
+              data-name="r33"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r33">
+                r33
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r32/examples/fonts/optimer_regular.typeface.json"
+              data-name="r32"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r32">
+                r32
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r31/examples/fonts/optimer_regular.typeface.json"
+              data-name="r31"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r31">
+                r31
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r30/examples/fonts/optimer_regular.typeface.json"
+              data-name="r30"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r30">
+                r30
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r29/examples/fonts/optimer_regular.typeface.json"
+              data-name="r29"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r29">
+                r29
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r28/examples/fonts/optimer_regular.typeface.json"
+              data-name="r28"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r28">
+                r28
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r25/examples/fonts/optimer_regular.typeface.json"
+              data-name="r25"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r25">
+                r25
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r18/examples/fonts/optimer_regular.typeface.json"
+              data-name="r18"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r18">
+                r18
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r17/examples/fonts/optimer_regular.typeface.json"
+              data-name="r17"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r17">
+                r17
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r16/examples/fonts/optimer_regular.typeface.json"
+              data-name="r16"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r16">
+                r16
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r15/examples/fonts/optimer_regular.typeface.json"
+              data-name="r15"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r15">
+                r15
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r14/examples/fonts/optimer_regular.typeface.json"
+              data-name="r14"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r14">
+                r14
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r13/examples/fonts/optimer_regular.typeface.json"
+              data-name="r13"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r13">
+                r13
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r12/examples/fonts/optimer_regular.typeface.json"
+              data-name="r12"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r12">
+                r12
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r11/examples/fonts/optimer_regular.typeface.json"
+              data-name="r11"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r11">
+                r11
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r10/examples/fonts/optimer_regular.typeface.json"
+              data-name="r10"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r10">
+                r10
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r9/examples/fonts/optimer_regular.typeface.json"
+              data-name="r9"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r9">
+                r9
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r8/examples/fonts/optimer_regular.typeface.json"
+              data-name="r8"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r8">
+                r8
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r7/examples/fonts/optimer_regular.typeface.json"
+              data-name="r7"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r7">
+                r7
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r6/examples/fonts/optimer_regular.typeface.json"
+              data-name="r6"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r6">
+                r6
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r5/examples/fonts/optimer_regular.typeface.json"
+              data-name="r5"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r5">
+                r5
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r4/examples/fonts/optimer_regular.typeface.json"
+              data-name="r4"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r4">
+                r4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r3/examples/fonts/optimer_regular.typeface.json"
+              data-name="r3"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r3">
+                r3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r2/examples/fonts/optimer_regular.typeface.json"
+              data-name="r2"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r2">
+                r2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+              href="/mrdoob/three.js/tree/r1/examples/fonts/optimer_regular.typeface.json"
+              data-name="r1"
+              data-skip-pjax="true"
+              rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+              <span class="select-menu-item-text css-truncate-target" title="r1">
+                r1
               </span>
             </a>
         </div>
@@ -650,7 +1538,7 @@
 </div>
 
       <div class="BtnGroup float-right">
-        <a href="/rollup/three-jsnext/find/master"
+        <a href="/mrdoob/three.js/find/master"
               class="js-pjax-capture-input btn btn-sm BtnGroup-item"
               data-pjax
               data-hotkey="t">
@@ -661,21 +1549,83 @@
         </clipboard-copy>
       </div>
       <div id="blob-path" class="breadcrumb">
-        <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/rollup/three-jsnext"><span>three-jsnext</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/rollup/three-jsnext/tree/master/examples"><span>examples</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/rollup/three-jsnext/tree/master/examples/fonts"><span>fonts</span></a></span><span class="separator">/</span><strong class="final-path">optimer_regular.typeface.json</strong>
+        <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/mrdoob/three.js/tree/master"><span>three.js</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/mrdoob/three.js/tree/master/examples"><span>examples</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/mrdoob/three.js/tree/master/examples/fonts"><span>fonts</span></a></span><span class="separator">/</span><strong class="final-path">optimer_regular.typeface.json</strong>
       </div>
     </div>
 
 
-    <include-fragment src="/rollup/three-jsnext/contributors/master/examples/fonts/optimer_regular.typeface.json" class="commit-tease commit-loader">
+    
+  <div class="commit-tease">
+      <span class="float-right">
+        <a class="commit-tease-sha" href="/mrdoob/three.js/commit/1d3022bc4dbb08dbed153bcbf9314303baa11859" data-pjax>
+          1d3022b
+        </a>
+        <relative-time datetime="2016-11-21T01:45:41Z">Nov 21, 2016</relative-time>
+      </span>
       <div>
-        Fetching contributors&hellip;
+        <a rel="contributor" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=2541685" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/pjhjohn"><img class="avatar" src="https://avatars3.githubusercontent.com/u/2541685?s=40&amp;v=4" width="20" height="20" alt="@pjhjohn" /></a>
+        <a class="user-mention" rel="contributor" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=2541685" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/pjhjohn">pjhjohn</a>
+          <a data-pjax="true" title="Arrange file modes : 755 =&gt; 644
+
+Following extensions kept remain 755:
+ - .sh
+ - .bash
+ - .sample (https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
+Following extensions changed into 644:
+ - Scripts
+   - .json
+   - .js
+   - .html
+   - .mel
+ - Resources
+   - .3mf
+   - .dae
+   - .jpg
+   - .wrl
+ - MISC
+   - README.md
+   - LICENSE" class="message" href="/mrdoob/three.js/commit/1d3022bc4dbb08dbed153bcbf9314303baa11859">Arrange file modes : 755 =&gt; 644</a>
       </div>
 
-      <div class="commit-tease-contributors">
-          <img alt="" class="loader-loading float-left" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
-        <span class="loader-error">Cannot retrieve contributors at this time</span>
-      </div>
-</include-fragment>
+    <div class="commit-tease-contributors">
+      
+<details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-2" id="blob_contributors_box">
+  <summary class="btn-link" aria-haspopup="dialog"  >
+    
+    <span><strong>2</strong> contributors</span>
+  </summary>
+  <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast " aria-label="Users who have contributed to this file">
+    <div class="Box-header">
+      <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+      </button>
+      <h3 class="Box-title">Users who have contributed to this file</h3>
+    </div>
+    
+        <ul class="list-style-none overflow-auto">
+            <li class="Box-row">
+              <a class="link-gray-dark no-underline" href="/mrdoob">
+                <img class="avatar mr-2" alt="" src="https://avatars0.githubusercontent.com/u/97088?s=40&amp;v=4" width="20" height="20" />
+                mrdoob
+</a>            </li>
+            <li class="Box-row">
+              <a class="link-gray-dark no-underline" href="/pjhjohn">
+                <img class="avatar mr-2" alt="" src="https://avatars3.githubusercontent.com/u/2541685?s=40&amp;v=4" width="20" height="20" />
+                pjhjohn
+</a>            </li>
+        </ul>
+
+  </details-dialog>
+</details>
+          <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=97088" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/mrdoob/three.js/commits/master/examples/fonts/optimer_regular.typeface.json?author=mrdoob">
+      <img class="avatar" src="https://avatars0.githubusercontent.com/u/97088?s=40&amp;v=4" width="20" height="20" alt="@mrdoob" /> 
+</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/hovercards?user_id=2541685" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/mrdoob/three.js/commits/master/examples/fonts/optimer_regular.typeface.json?author=pjhjohn">
+      <img class="avatar" src="https://avatars3.githubusercontent.com/u/2541685?s=40&amp;v=4" width="20" height="20" alt="@pjhjohn" /> 
+</a>
+
+    </div>
+  </div>
+
 
 
     <div class="file ">
@@ -684,25 +1634,25 @@
 
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/rollup/three-jsnext/raw/master/examples/fonts/optimer_regular.typeface.json">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/rollup/three-jsnext/blame/master/examples/fonts/optimer_regular.typeface.json">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/rollup/three-jsnext/commits/master/examples/fonts/optimer_regular.typeface.json">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/mrdoob/three.js/raw/master/examples/fonts/optimer_regular.typeface.json">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/mrdoob/three.js/blame/master/examples/fonts/optimer_regular.typeface.json">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/mrdoob/three.js/commits/master/examples/fonts/optimer_regular.typeface.json">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
-           href="x-github-client://openRepo/https://github.com/rollup/three-jsnext?branch=master&amp;filepath=examples%2Ffonts%2Foptimer_regular.typeface.json"
+           href="x-github-client://openRepo/https://github.com/mrdoob/three.js?branch=master&amp;filepath=examples%2Ffonts%2Foptimer_regular.typeface.json"
            aria-label="Open this file in GitHub Desktop"
            data-ga-click="Repository, open with desktop, type:windows">
             <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/rollup/three-jsnext/edit/master/examples/fonts/optimer_regular.typeface.json" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="W1lWRAJPG3YPtxmOEBxFkGw+71/fzkRArg41X0hmFr8ONnbUxsBSeliQhVmbOe6XcyvGqDJ6rQRnMmKbMGHgyw==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/mrdoob/three.js/edit/master/examples/fonts/optimer_regular.typeface.json" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Yihmy2UIciRbj8yOyyGwaVm39IUd7Y96tCCcq91O0A9347d56PhyUAXtALKSlXBjFqkVjT+Rcum4JCDrVDTRUA==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
             </button>
 </form>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/rollup/three-jsnext/delete/master/examples/fonts/optimer_regular.typeface.json" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="6+r/jyVVg1TCp0dumcMTO6Rph08AZO01irVuf4MbhcHLt9wyTxhNXau2bq4VqbfwtyXucPQZdVrCX5KNMej70Q==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/mrdoob/three.js/delete/master/examples/fonts/optimer_regular.typeface.json" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="YXK86XaSRvphN1680CMHSnmkDeSbQ/eS9JD1uJ7iE4GR9eBJNff/m21edWwvS/QQEaZMsNlcWbvFQ8yZC38pVw==" />
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -710,8 +1660,6 @@
 </form>  </div>
 
   <div class="file-info">
-      <span class="file-mode" title="File mode">executable file</span>
-      <span class="file-info-divider"></span>
       1 lines (1 sloc)
       <span class="file-info-divider"></span>
     108 KB
@@ -736,8 +1684,8 @@
       <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2">
         <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;" data-original-text="Copy lines">Copy lines</clipboard-copy></li>
         <li><clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;" data-original-text="Copy permalink">Copy permalink</clipboard-copy></li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/rollup/three-jsnext/blame/253dbac8d0959a2f467a23b27dd97065d55da4c0/examples/fonts/optimer_regular.typeface.json">View git blame</a></li>
-          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/rollup/three-jsnext/issues/new">Open new issue</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/mrdoob/three.js/blame/5360a81b8c557ed255e97b87c49e7d00b546b795/examples/fonts/optimer_regular.typeface.json">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/mrdoob/three.js/issues/new">Open new issue</a></li>
       </ul>
     </details-menu>
   </details>
@@ -771,7 +1719,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2018 <span title="0.28606s from unicorn-785764c8bb-z9qjn">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2018 <span title="0.35667s from unicorn-785764c8bb-xmdkl">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3"><a href="/security" data-ga-click="Footer, go to security, text:security">Security</a></li>

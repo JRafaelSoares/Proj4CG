@@ -25,7 +25,7 @@ class Main {
 
     createScene() {
         'use strict';
-        
+
         //Main scene (0) and Pause (1)
         this.scenes = new Array(2);
         
@@ -47,13 +47,9 @@ class Main {
         this.greyGouraudMaterial = new THREE.MeshLambertMaterial( {color: 0x999999}); 
         this.greyBasicMaterial = new THREE.MeshBasicMaterial({ color: 0x999999, wireframe: false});
 
-        //var greyMaterials = [greyPhongMaterial, greyGouraudMaterial, greyBasicMaterial];
-
-        //this.materialInstances = greyMaterials;
-        
         // Field
 
-        this.field = new Field(0, 0, 0, 100, this.greyPhongMaterial);
+        this.field = new Field(0, 0, 0, 100, this.greyBasicMaterial);
 
         this.scenes[0].add(this.field);
 
@@ -74,30 +70,20 @@ class Main {
 
         //Pause scene and objects
 
-        
         this.scenes[1] = new THREE.Scene();
-        /*
-
-        var loader = new THREE.FontLoader();
-
-        loader.load( 'js/app/fonts/optimer_regular.typeface.json', function ( font ) {
-
-            this.pause_text = new THREE.TextBufferGeometry( 'PAUSED', {
-                font: font,
-                size: 80,
-                height: 5,
-                curveSegments: 12,
-                bevelEnabled: true,
-                bevelThickness: 10,
-                bevelSize: 8,
-                bevelSegments: 5
-            } );
-        } );
         
-        this.pause_text.position.set(0,0,0);
+        var pauseTexture = new THREE.TextureLoader().load("js/app/fonts/pause.jpg");
+        
+        pauseTexture.wrapS = THREE.ClampToEdgeWrapping;
+        pauseTexture.wrapT = THREE.ClampToEdgeWrapping;
 
-        */
+        var pauseMaterial = new THREE.MeshBasicMaterial({map: pauseTexture});
 
+        this.pauseScreen = new Pause(0, 0, 0, window.innerWidth*2, window.innerHeight, pauseMaterial);
+
+        this.scenes[1].add(this.pauseScreen);
+        
+        //this.scenes[1].add(this.field);
     }
 
     createCamera() {
@@ -116,7 +102,7 @@ class Main {
 
         this.cameraList[1] = new THREE.OrthographicCamera(window.innerWidth / -2, window.innerWidth / 2, window.innerHeight / 2, window.innerHeight / -2, 1, 1000);
 
-        this.cameraList[1].position.set(0, 200, 0);
+        this.cameraList[1].position.set(0, 0, 200);
 
         this.cameraList[1].lookAt(0, 0, 0);
 
@@ -202,13 +188,13 @@ class Main {
                 break;
             
             case 82: //R
-                //Restart game if on pause;
+                this.createCamera();
+                this.createScene();
                 break;
             
             case 83: //S
                 //Pause
                 this.mode = (this.mode == 0 ? 1 : 0);
-                //this.mode = !this.mode;
                 break;
             
             case 87: //W
