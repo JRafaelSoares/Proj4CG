@@ -34,9 +34,9 @@ class Main {
         
 
         // Materials 
-        this.greyPhongMaterial = new THREE.MeshPhongMaterial( {color: 0x999999});
-        this.greyGouraudMaterial = new THREE.MeshLambertMaterial( {color: 0x999999}); 
-        this.greyBasicMaterial = new THREE.MeshBasicMaterial({ color: 0x999999, wireframe: false});
+        this.greyPhongMaterial = new THREE.MeshPhongMaterial({color: 0x999999});
+        this.greyGouraudMaterial = new THREE.MeshLambertMaterial({color: 0x999999}); 
+        this.greyBasicMaterial = new THREE.MeshBasicMaterial({color: 0x999999, wireframe: false});
 
         //var greyMaterials = [greyPhongMaterial, greyGouraudMaterial, greyBasicMaterial];
 
@@ -44,9 +44,29 @@ class Main {
         
         // Field
 
-        this.field = new Field(0, 0, 0, 100, this.greyPhongMaterial);
+        //this.field = new Field(0, 0, 0, 100, this.greyPhongMaterial);
 
-        this.scene.add(this.field);
+        //this.scene.add(this.field);
+
+        var geometry = new THREE.CubeGeometry(60, 60, 60);
+
+        var faceFiles = ['GreenFace.png', 'BlueFace.png',
+            'WhiteFace.png', 'YellowFace.png',
+            'OrangeFace.png', 'RedFace.png'];
+
+        var loader = new THREE.TextureLoader();
+        loader.setPath('textures/');
+
+        var cubeTextures = new Array(6);
+
+        for(var i = 0; i < 6; i++){
+            cubeTextures[i] = new THREE.MeshPhongMaterial({color: 0xffffff, map: loader.load(faceFiles[i])});
+        }
+        
+        /* Create Base */
+        var cube = new THREE.Mesh(geometry, cubeTextures);
+
+        this.scene.add(cube);
 
         // Sun Directional Light 
         this.sun = new Sun(200, 200, 0, 0xffffff, this.baseIntensity);
@@ -70,7 +90,7 @@ class Main {
 
         this.camera = new THREE.PerspectiveCamera(90, window.innerWidth / window.innerHeight, 0.1, 1000); 
 
-        this.camera.position.set(200,200,100);
+        this.camera.position.set(100, 100, 50);
 
         this.camera.lookAt(0,0,0);
 

@@ -16,14 +16,14 @@ class Spotlight extends THREE.SpotLight{
         mesh_cone.rotation.x = Math.PI + Math.PI / 2;
         mesh_cone.rotation.z = Math.PI;
 
-        this.add(mesh_cone);
+        //this.add(mesh_cone);
 
         var geometry_sphere = new THREE.SphereGeometry(this.radius, this.radius * 2, this.radius * 2, 0, Math.PI);
         this.mesh_sphere = new THREE.Mesh(geometry_sphere, this.materialLight);
         this.mesh_sphere.rotation.z = Math.PI / 2;
         this.mesh_sphere.rotation.y = Math.PI;
 
-        this.add(this.mesh_sphere);
+        //this.add(this.mesh_sphere);
         
         this.intensity = 0.8;
 
