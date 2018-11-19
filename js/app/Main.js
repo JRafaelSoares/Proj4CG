@@ -12,8 +12,8 @@ class Main {
 
         document.body.appendChild(this.renderer.domElement);
         
-        this.defaultWidth = 600;
-        this.defaultHeight = 1200;
+        this.defaultWidth = 1152;
+        this.defaultHeight = 648;
 
         this.createCamera();
         this.createScene();
@@ -32,7 +32,7 @@ class Main {
         this.scenes[0] = new THREE.Scene();
 
         //Active (0) or Paused (1)
-        this.mode = 0;
+        this.pause = 0;
 
         // Intensity of the sun
         this.baseIntensity = 1;
@@ -60,14 +60,11 @@ class Main {
         this.scenes[0].add(this.sun);
         
         
-        // Create Spotlight
-        var materialSpotlight = new THREE.MeshBasicMaterial({color: 0x666666});
-        var materialLight = new THREE.MeshBasicMaterial({color: 0xffff33});
-        materialSpotlight.side = THREE.DoubleSide;
+        // Create Pointlight
         
-        this.spotlight = new Spotlight(50, 50, 50, 5, [materialSpotlight, materialLight]);
+        this.pointlight = new Pointlight(50, 50, 50);
         
-        this.scenes[0].add(this.spotlight);
+        this.scenes[0].add(this.pointlight);
 
         //Pause scene and objects
 
@@ -80,11 +77,10 @@ class Main {
 
         var pauseMaterial = new THREE.MeshBasicMaterial({map: pauseTexture});
 
-        this.pauseScreen = new Pause(0, 0, 0, window.innerWidth*2, window.innerHeight, pauseMaterial);
+        this.pauseScreen = new Pause(0, 0, 0, 1152, 648, pauseMaterial);
 
         this.scenes[1].add(this.pauseScreen);
         
-        //this.scenes[1].add(this.field);
     }
 
     createCamera() {
@@ -118,7 +114,7 @@ class Main {
 
     render() {
         'use strict';
-        this.renderer.render(this.scenes[this.mode], this.cameraList[this.mode]);
+        this.renderer.render(this.scenes[this.pause], this.cameraList[this.pause]);
     }
 
 
@@ -189,17 +185,20 @@ class Main {
                 break;
             
             case 80: //P
-                this.spotlight.toggleLight();
+                this.pointlight.toggleLight();
                 break;
             
             case 82: //R
-                this.createCamera();
-                this.createScene();
+                if(this.pause){
+                    this.createCamera();
+                    this.createScene();
+                }
                 break;
             
             case 83: //S
                 //Pause
-                this.mode = (this.mode == 0 ? 1 : 0);
+                this.pause = (this.pause == 0 ? 1 : 0);
+                this.controls.enabled = !this.controls.enabled;
                 break;
             
             case 87: //W
@@ -212,7 +211,7 @@ class Main {
 
     update(){
 
-        if(this.mode == 0){
+        if(!this.pause){
             var t = this.clock.getDelta();
         
             //Makes camera AutoRotate
