@@ -58,17 +58,20 @@ class Main {
         loader.setPath('textures/');
 
         var cubeTextures = new Array(6);
+        var cubeTexturesNoLight = new Array(6);
 
-        var bMap = loader.load("BumpMapTest.png");
+        var bMap = loader.load("BumpMap.png");
 
         for(var i = 0; i < 6; i++){
-            cubeTextures[i] = new THREE.MeshPhongMaterial({color: 0xffffff, map: loader.load(faceFiles[i]), bumpMap: bMap});
+            cubeTextures[i] = new THREE.MeshPhongMaterial({color: 0xffffff, map: loader.load(faceFiles[i]), bumpMap: bMap, bumpScale: 200});
+            cubeTexturesNoLight[i] = new THREE.MeshBasicMaterial({color: 0xffffff, map: loader.load(faceFiles[i])});
         }
-        
-        /* Create Base */
-        var cube = new THREE.Mesh(geometry, cubeTextures);
 
-        this.scene.add(cube);
+        this.side = 60;
+        
+        this.cube = new Cube(0, 0, 0, this.side, [cubeTextures, cubeTexturesNoLight]);
+
+        this.scene.add(this.cube);
 
         // Sun Directional Light 
         this.sun = new Sun(200, 200, 0, 0xffffff, this.baseIntensity);
@@ -178,6 +181,8 @@ class Main {
 
         var t = this.clock.getDelta();
 
+        this.cube.rotation.y += t/2;
+
     }
 
     toggleNightMode(){
@@ -186,6 +191,8 @@ class Main {
 
     toggleLightCalculation(){
         //Apply to new objects;
+
+        this.cube.toggleLightCalculation();
     }
    
 
@@ -199,5 +206,7 @@ class Main {
             }
         }
         */
+
+        this.cube.toggleWireframe();
     }
 }
