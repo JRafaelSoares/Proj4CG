@@ -15,24 +15,29 @@ class Cube extends GraphicalEntity {
 
         this.add(this.cube);
         
-        this.position.x = x;
-        this.position.y = y;
-        this.position.z = z;
+        this.position.set(x, y, z);
         
     }
 
 
     toggleWireframe(){
 
-        if(this.cube.material.length != undefined){
-            var newState = !this.cube.material[0].wireframe;
+        if(this.materials.length != undefined){
+            for(var i = 0; i < this.materials.length; i++){
+                if(this.materials[i].length != undefined){
+                    var newState = !this.materials[i][0].wireframe;
 
-            for(var i = 0; i < this.cube.material.length; i++){
-                this.cube.material[i].wireframe = newState;
+                    for(var j = 0; j < this.materials[i].length; j++){
+                        this.materials[i][j].wireframe = newState;
+                    }
+                }
+                else{
+                    this.materials[i].wireframe = !this.materials[i].wireframe;
+                }
             }
         }
         else{
-            this.cube.material.wireframe = !this.cube.material.wireframe;
+            this.materials.wireframe = !this.materials.wireframe;
         }
         
     }
