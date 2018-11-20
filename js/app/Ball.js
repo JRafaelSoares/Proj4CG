@@ -31,20 +31,21 @@ class Ball extends GraphicalEntity{
     }
 
     update(t){
-
-        var speed = this.w * this.radius;
-        var linearMove = speed * t + 0.5 * actualAcceleration / this.radius * t * t;
         
-        /* Rotate mesh around itself according to its speed */
-        this.ball.rotation.z -= linearMove / this.radius;
-
         // movement of the ball
         var actualAcceleration = this.acceleration - this.attrition * this.w;
         this.w += actualAcceleration * t;
 
-        this.rotation.y += this.w * t + 0.5 * actualAcceleration * t * t;
+        var angleMoved = this.w * t + 0.5 * actualAcceleration * t * t;
+        this.rotation.y += angleMoved;
 
-        /* this.w max : this.acceleration/this.attrtion = 1 */
+        var linearMove = angleMoved * this.circleRadius;
+        
+        // Rotate mesh around itself according to its speed 
+        this.ball.rotation.z -= linearMove / this.radius;
+        
+
+        // this.w max : this.acceleration/this.attrtion = 1
         if(this.w > 0.99){
             this.w = 1;
         }
@@ -54,7 +55,7 @@ class Ball extends GraphicalEntity{
         this.position.x = this.circleRadius * Math.sin(this.rotation.y);
         this.position.z = this.circleRadius * Math.cos(this.rotation.y);
 
-
+        
     }
 
     toggleAxisHelper() {
