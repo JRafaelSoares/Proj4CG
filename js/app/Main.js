@@ -12,8 +12,8 @@ class Main {
 
         document.body.appendChild(this.renderer.domElement);
         
-        this.defaultWidth = 1152;
-        this.defaultHeight = 648;
+        this.defaultWidth = 421;
+        this.defaultHeight = 156;
 
         this.createCamera();
         this.createScene();
@@ -103,7 +103,7 @@ class Main {
         
         // Create Pointlight
         
-        this.pointlight = new Pointlight(50, 50, 50);
+        this.pointlight = new Pointlight(0, 100, 0, [0,0,0]);
         
         this.scenes[0].add(this.pointlight);
 
@@ -111,14 +111,14 @@ class Main {
 
         this.scenes[1] = new THREE.Scene();
         
-        var pauseTexture = new THREE.TextureLoader().load("js/app/fonts/pause.jpg");
+        var pauseTexture = new THREE.TextureLoader().load("js/app/fonts/P3.png");
         
         pauseTexture.wrapS = THREE.ClampToEdgeWrapping;
         pauseTexture.wrapT = THREE.ClampToEdgeWrapping;
 
         var pauseMaterial = new THREE.MeshBasicMaterial({map: pauseTexture});
 
-        this.pauseScreen = new Pause(0, 0, 0, 1152, 648, pauseMaterial);
+        this.pauseScreen = new Pause(0, 0, 0, 421, 156, pauseMaterial);
 
         this.scenes[1].add(this.pauseScreen);
         
@@ -215,10 +215,6 @@ class Main {
             case 68: //D
                 this.toggleNightMode();
                 break;
-
-            case 71: //G
-                this.toggleShadingType();
-                break;
             
             case 76: //L
                 this.toggleLightCalculation();
@@ -242,7 +238,7 @@ class Main {
                 break;
             
             case 87: //W
-                //this.toggleWireframe();
+                this.toggleWireframe();
                 break;
         }
 
@@ -251,8 +247,9 @@ class Main {
 
     update(){
 
+        var t = this.clock.getDelta();
+
         if(!this.pause){
-            var t = this.clock.getDelta();
             
             this.ball.update(t);
             //Makes camera AutoRotate

@@ -1,6 +1,6 @@
 class Pointlight extends THREE.PointLight{
     
-    constructor(x, y, z){
+    constructor(x, y, z, target = null){
         super();
 
         /*
@@ -36,6 +36,11 @@ class Pointlight extends THREE.PointLight{
         this.decay = 2;
         
         this.position.set(x, y, z);
+
+        if(target != null)
+            this.lookAt(target[0], target[1], target[2]);
+        else
+            this.lookAt(0,0,0);
     }
     
     toggleLight(){
