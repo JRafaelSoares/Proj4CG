@@ -34,9 +34,9 @@ class Main {
         
 
         // Materials 
-        this.greyPhongMaterial = new THREE.MeshPhongMaterial( {color: 0x999999});
-        this.greyGouraudMaterial = new THREE.MeshLambertMaterial( {color: 0x999999}); 
-        this.greyBasicMaterial = new THREE.MeshBasicMaterial({ color: 0x999999, wireframe: false});
+        this.greyPhongMaterial = new THREE.MeshPhongMaterial({color: 0x999999});
+        this.greyGouraudMaterial = new THREE.MeshLambertMaterial({color: 0x999999}); 
+        this.greyBasicMaterial = new THREE.MeshBasicMaterial({color: 0x999999, wireframe: false});
 
         //var greyMaterials = [greyPhongMaterial, greyGouraudMaterial, greyBasicMaterial];
 
@@ -49,7 +49,32 @@ class Main {
 
         this.field = new Field(0, 0, 0, 500, this.fieldPhongMaterial);
 
-        this.scene.add(this.field);
+        //this.scene.add(this.field);
+
+        var geometry = new THREE.CubeGeometry(60, 60, 60);
+
+        var faceFiles = ['GreenFace.png', 'BlueFace.png',
+            'WhiteFace.png', 'YellowFace.png',
+            'OrangeFace.png', 'RedFace.png'];
+
+        var loader = new THREE.TextureLoader();
+        loader.setPath('textures/');
+
+        var cubeTextures = new Array(6);
+        var cubeTexturesNoLight = new Array(6);
+
+        var bMap = loader.load("BumpMap.png");
+
+        for(var i = 0; i < 6; i++){
+            cubeTextures[i] = new THREE.MeshPhongMaterial({color: 0xffffff, map: loader.load(faceFiles[i]), bumpMap: bMap, bumpScale: 200});
+            cubeTexturesNoLight[i] = new THREE.MeshBasicMaterial({color: 0xffffff, map: loader.load(faceFiles[i])});
+        }
+
+        this.side = 60;
+        
+        this.cube = new Cube(0, 0, 0, this.side, [cubeTextures, cubeTexturesNoLight]);
+
+        this.scene.add(this.cube);
 
         //Ball
 
@@ -169,6 +194,8 @@ class Main {
         var t = this.clock.getDelta();
         this.ball.update(t);
 
+        this.cube.rotation.y += t/2;
+
     }
 
     toggleNightMode(){
@@ -177,6 +204,8 @@ class Main {
 
     toggleLightCalculation(){
         //Apply to new objects;
+
+        this.cube.toggleLightCalculation();
     }
    
 
@@ -190,5 +219,7 @@ class Main {
             }
         }
         */
+
+        this.cube.toggleWireframe();
     }
 }
