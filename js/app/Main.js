@@ -44,7 +44,7 @@ class Main {
         
         // Field
 
-        var fieldTexture = new THREE.TextureLoader().load('js/textures/chess_table.jpg');
+        var fieldTexture = new THREE.TextureLoader().load('textures/chess_table.jpg');
         this.fieldPhongMaterial = new THREE.MeshPhongMaterial({shininess: 0.01, map: fieldTexture, wireframe: false});
 
         this.field = new Field(0, 0, 0, 500, this.fieldPhongMaterial);
@@ -78,7 +78,7 @@ class Main {
 
         //Ball
 
-        var ballTexture = new THREE.TextureLoader().load('js/textures/ball.jpg');
+        var ballTexture = new THREE.TextureLoader().load('textures/ball.jpg');
         this.ballMaterial = new THREE.MeshPhongMaterial({map: ballTexture, wireframe: false});
 
         this.ballRadius = 20;
