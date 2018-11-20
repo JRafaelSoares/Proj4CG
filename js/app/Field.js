@@ -1,9 +1,10 @@
 class Field extends GraphicalEntity {
 
-    constructor(x, y, z, side, material, camera = null){
+    constructor(x, y, z, side, materials, camera = null){
         super();
 
-        this.baseMaterial = material;
+        this.baseMaterial = materials[0];
+        this.basicMaterial = materials[1];
 
         var geometry = new THREE.CubeGeometry(side, 10, side);
         
@@ -19,4 +20,11 @@ class Field extends GraphicalEntity {
         this.position.z = z;
     }
 
+    toggleWireframe(){        
+            this.base.material.wireframe = !this.base.material.wireframe;
+    }
+
+    toggleLightCalculation(){
+        this.base.material = (this.base.material == this.basicMaterial ? this.baseMaterial : this.basicMaterial);
+    }
 }

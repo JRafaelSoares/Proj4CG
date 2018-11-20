@@ -1,7 +1,10 @@
 class Ball extends GraphicalEntity{
     
-    constructor(x, y, z, radius, circleRadius, material){
+    constructor(x, y, z, radius, circleRadius, materials){
         super();
+
+        this.baseMaterial = materials[0];
+        this.basicMaterial = materials[1];
 
         this.radius = radius;
         this.circleRadius = circleRadius;
@@ -14,7 +17,7 @@ class Ball extends GraphicalEntity{
 
         // Create inner ball
         var geometry = new THREE.SphereGeometry(this.radius, this.radius * 1, this.radius * 1);
-        this.mesh = new THREE.Mesh(geometry, material);
+        this.mesh = new THREE.Mesh(geometry, this.baseMaterial);
 
         // Create ball
         this.ball = new THREE.Object3D();
@@ -64,5 +67,13 @@ class Ball extends GraphicalEntity{
 
     toggleMovement(){
         this.acceleration = (this.acceleration == 0 ? this.defaultAcceleration : 0);
+    }
+
+    toggleWireframe(){        
+        this.mesh.material.wireframe = !this.mesh.material.wireframe;
+    }
+
+    toggleLightCalculation(){
+        this.mesh.material = (this.mesh.material == this.basicMaterial ? this.baseMaterial : this.basicMaterial);
     }
 }

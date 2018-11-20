@@ -45,11 +45,12 @@ class Main {
         // Field
 
         var fieldTexture = new THREE.TextureLoader().load('textures/chess_table.jpg');
-        this.fieldPhongMaterial = new THREE.MeshPhongMaterial({shininess: 0.01, map: fieldTexture, wireframe: false});
+        this.fieldPhongMaterial = new THREE.MeshPhongMaterial({color: 0xffffff, shininess: 0.01, map: fieldTexture, wireframe: false});
+        this.fieldBasicMaterial = new THREE.MeshBasicMaterial({map: fieldTexture, wireframe: false});
 
-        this.field = new Field(0, 0, 0, 500, this.fieldPhongMaterial);
+        this.field = new Field(0, 0, 0, 500, [this.fieldPhongMaterial, this.fieldBasicMaterial]);
 
-        //this.scene.add(this.field);
+        this.scene.add(this.field);
 
         var geometry = new THREE.CubeGeometry(60, 60, 60);
 
@@ -79,10 +80,11 @@ class Main {
         //Ball
 
         var ballTexture = new THREE.TextureLoader().load('textures/ball.jpg');
-        this.ballMaterial = new THREE.MeshPhongMaterial({map: ballTexture, wireframe: false});
+        var ballPhongMaterial = new THREE.MeshPhongMaterial({specular:0xffffff , shininess: 4, map: ballTexture, wireframe: false});
+        var ballBasicMaterial = new THREE.MeshBasicMaterial({map: ballTexture, wireframe: false});
 
         this.ballRadius = 20;
-        this.ball = new Ball(0, this.ballRadius, -100, this.ballRadius, 100, this.ballMaterial);
+        this.ball = new Ball(0, this.ballRadius, -100, this.ballRadius, 100, [ballPhongMaterial, ballBasicMaterial]);
 
         this.scene.add(this.ball);
 
@@ -201,23 +203,15 @@ class Main {
     }
 
     toggleLightCalculation(){
-        //Apply to new objects;
-
         this.cube.toggleLightCalculation();
+        this.field.toggleLightCalculation();
+        this.ball.toggleLightCalculation();
     }
    
 
     toggleWireframe(){
-        /*
-        for(var i = 0; i < this.materialInstances.length; i++){
-            for(var j = 0; j < this.materialInstances[i].length; j++){
-                this.materialInstances[i][j].wireframe = !this.materialInstances[i][j].wireframe;
-
-                console.log(this.materialInstances[i][j].wireframe);
-            }
-        }
-        */
-
+        this.field.toggleWireframe();
         this.cube.toggleWireframe();
+        this.ball.toggleWireframe();
     }
 }

@@ -13,6 +13,8 @@ class Cube extends GraphicalEntity {
         
         this.cube = new THREE.Mesh(geometry, this.selectMaterial(this.currentMaterial));
 
+        this.cube.position.set(0, side / 2, 0);
+
         this.add(this.cube);
         
         this.position.set(x, y, z);
