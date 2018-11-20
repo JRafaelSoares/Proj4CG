@@ -194,8 +194,6 @@ class Main {
         var t = this.clock.getDelta();
         this.ball.update(t);
 
-        this.cube.rotation.y += t/2;
-
     }
 
     toggleNightMode(){
