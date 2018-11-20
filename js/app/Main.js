@@ -12,6 +12,9 @@ class Main {
 
         document.body.appendChild(this.renderer.domElement);
         
+        this.defaultWidth = 1152;
+        this.defaultHeight = 648;
+
         this.createCamera();
         this.createScene();
 
@@ -22,15 +25,21 @@ class Main {
 
     createScene() {
         'use strict';
+
+        //Main scene (0) and Pause (1)
+        this.scenes = new Array(2);
         
-        this.scene = new THREE.Scene();
+        this.scenes[0] = new THREE.Scene();
+
+        //Active (0) or Paused (1)
+        this.pause = 0;
 
         // Intensity of the sun
         this.baseIntensity = 1;
 
         this.axisHelper = new THREE.AxesHelper(200);
         this.axisHelper.visible = false;
-        this.scene.add(this.axisHelper);
+        this.scenes[0].add(this.axisHelper);
         
 
         // Materials 
@@ -38,10 +47,6 @@ class Main {
         this.greyGouraudMaterial = new THREE.MeshLambertMaterial({color: 0x999999}); 
         this.greyBasicMaterial = new THREE.MeshBasicMaterial({color: 0x999999, wireframe: false});
 
-        //var greyMaterials = [greyPhongMaterial, greyGouraudMaterial, greyBasicMaterial];
-
-        //this.materialInstances = greyMaterials;
-        
         // Field
 
         var fieldTexture = new THREE.TextureLoader().load('textures/chess_table.jpg');
@@ -50,7 +55,7 @@ class Main {
 
         this.field = new Field(0, 0, 0, 500, [this.fieldPhongMaterial, this.fieldBasicMaterial]);
 
-        this.scene.add(this.field);
+        this.scenes[0].add(this.field);
 
         var geometry = new THREE.CubeGeometry(60, 60, 60);
 
@@ -75,7 +80,7 @@ class Main {
         
         this.cube = new Cube(0, 0, 0, this.side, [cubeTextures, cubeTexturesNoLight]);
 
-        this.scene.add(this.cube);
+        this.scenes[0].add(this.cube);
 
         //Ball
 
@@ -86,33 +91,63 @@ class Main {
         this.ballRadius = 20;
         this.ball = new Ball(0, this.ballRadius, -100, this.ballRadius, 100, [ballPhongMaterial, ballBasicMaterial]);
 
-        this.scene.add(this.ball);
+        this.scenes[0].add(this.ball);
+
+        //this.controls.target = this.field;
 
         // Sun Directional Light 
         this.sun = new Sun(200, 200, 0, 0xffffff, this.baseIntensity);
 
-        this.scene.add(this.sun);
+        this.scenes[0].add(this.sun);
         
         
-        // Create Spotlight
-        var materialSpotlight = new THREE.MeshBasicMaterial({color: 0x666666});
-        var materialLight = new THREE.MeshBasicMaterial({color: 0xffff33});
-        materialSpotlight.side = THREE.DoubleSide;
+        // Create Pointlight
         
-        this.spotlight = new Spotlight(50, 50, 50, 5, [materialSpotlight, materialLight]);
+        this.pointlight = new Pointlight(50, 50, 50);
         
-        this.scene.add(this.spotlight);
+        this.scenes[0].add(this.pointlight);
+
+        //Pause scene and objects
+
+        this.scenes[1] = new THREE.Scene();
+        
+        var pauseTexture = new THREE.TextureLoader().load("js/app/fonts/pause.jpg");
+        
+        pauseTexture.wrapS = THREE.ClampToEdgeWrapping;
+        pauseTexture.wrapT = THREE.ClampToEdgeWrapping;
+
+        var pauseMaterial = new THREE.MeshBasicMaterial({map: pauseTexture});
+
+        this.pauseScreen = new Pause(0, 0, 0, 1152, 648, pauseMaterial);
+
+        this.scenes[1].add(this.pauseScreen);
         
     }
 
     createCamera() {
         'use strict';
 
-        this.camera = new THREE.PerspectiveCamera(90, window.innerWidth / window.innerHeight, 0.1, 1000); 
+        this.cameraList = new Array(2);
+        //cameraList[0]: Pespective
+        //cameraList[1]: Ortographic
+        
+        this.cameraList[0] = new THREE.PerspectiveCamera(90, window.innerWidth / window.innerHeight, 0.1, 1000); 
 
-        this.camera.position.set(0,200,100);
+        this.cameraList[0].position.set(0, 200, 100);
 
-        this.camera.lookAt(0,0,0);
+        this.cameraList[0].lookAt(0, 0, 0);
+
+        this.cameraList[1] = new THREE.OrthographicCamera(window.innerWidth / -2, window.innerWidth / 2, window.innerHeight / 2, window.innerHeight / -2, 1, 1000);
+
+
+        this.cameraList[1].position.set(0, 0, 200);
+
+        this.cameraList[1].lookAt(0, 0, 0);
+
+        //Camera Controls
+        this.controls = new THREE.OrbitControls(this.cameraList[0]);
+
+        this.controls.autoRotate = true;
 
         this.resizeEvent();
 
@@ -120,7 +155,7 @@ class Main {
 
     render() {
         'use strict';
-        this.renderer.render(this.scene, this.camera);
+        this.renderer.render(this.scenes[this.pause], this.cameraList[this.pause]);
     }
 
 
@@ -144,9 +179,27 @@ class Main {
         
         if (window.innerHeight > 0 && window.innerWidth > 0) {
 
-            this.camera.aspect = this.windowRatio;
+            if(this.defaultAspectRatio >= this.windowRatio){
+
+                //Ortogonal camera 
+                this.cameraList[1].top = (this.defaultWidth * (1 / this.windowRatio)) / 2;
+                this.cameraList[1].bottom = -(this.defaultWidth * (1 / this.windowRatio)) / 2;
+
+            }
+            else {
+
+                //Ortogonal camera
+                this.cameraList[1].left = -(this.defaultHeight * this.windowRatio) / 2; 
+                this.cameraList[1].right = (this.defaultHeight * this.windowRatio) / 2; 
+
+            }
+
+
+            this.cameraList[0].aspect = this.windowRatio;
             
-            this.camera.updateProjectionMatrix();
+            for (var i = 0; i < 2; i++){
+                this.cameraList[i].updateProjectionMatrix();
+            }
         }
 
     }
@@ -172,19 +225,24 @@ class Main {
                 break;
             
             case 80: //P
-                this.spotlight.toggleLight();
+                this.pointlight.toggleLight();
                 break;
             
             case 82: //R
-                //Restart game if on pause;
+                if(this.pause){
+                    this.createCamera();
+                    this.createScene();
+                }
                 break;
             
             case 83: //S
-                //Pause Game
+                //Pause
+                this.pause = (this.pause == 0 ? 1 : 0);
+                this.controls.enabled = !this.controls.enabled;
                 break;
             
             case 87: //W
-                this.toggleWireframe();
+                //this.toggleWireframe();
                 break;
         }
 
@@ -193,9 +251,13 @@ class Main {
 
     update(){
 
-        var t = this.clock.getDelta();
-        this.ball.update(t);
-
+        if(!this.pause){
+            var t = this.clock.getDelta();
+            
+            this.ball.update(t);
+            //Makes camera AutoRotate
+            this.controls.update();
+        }
     }
 
     toggleNightMode(){

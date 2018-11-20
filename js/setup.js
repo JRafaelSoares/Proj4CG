@@ -7,6 +7,12 @@ function setup(){
 
 			function (e){
 				main.keyboardDownEvent(e.keyCode);
+				
+				/*
+				if(e.keyCode == 87){
+					main = new Main();
+				}
+				*/
 			}
 	);
 
