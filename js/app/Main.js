@@ -12,8 +12,8 @@ class Main {
 
         document.body.appendChild(this.renderer.domElement);
         
-        this.defaultWidth = 421;
-        this.defaultHeight = 156;
+        this.defaultWidth = 1152;
+        this.defaultHeight = 648;
 
         this.createCamera();
         this.createScene();
@@ -111,14 +111,14 @@ class Main {
 
         this.scenes[1] = new THREE.Scene();
         
-        var pauseTexture = new THREE.TextureLoader().load("js/app/fonts/P3.png");
+        var pauseTexture = new THREE.TextureLoader().load("textures/pause.jpg");
         
         pauseTexture.wrapS = THREE.ClampToEdgeWrapping;
         pauseTexture.wrapT = THREE.ClampToEdgeWrapping;
 
         var pauseMaterial = new THREE.MeshBasicMaterial({map: pauseTexture});
 
-        this.pauseScreen = new Pause(0, 0, 0, 421, 156, pauseMaterial);
+        this.pauseScreen = new Pause(0, 0, 0, 1152, 648, pauseMaterial);
 
         this.scenes[1].add(this.pauseScreen);
         
