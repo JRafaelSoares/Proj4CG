@@ -9,10 +9,10 @@ function setup(){
 				main.keyboardDownEvent(e.keyCode);
 				
 				/*
-				if(e.keyCode == 87){
+				if(e.keyCode == 82 && main.isPause()){
 					main = new Main();
-				}
-				*/
+				}*/
+				
 			}
 	);
 

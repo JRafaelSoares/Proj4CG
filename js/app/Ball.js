@@ -47,14 +47,6 @@ class Ball extends GraphicalEntity{
         // Rotate mesh around itself according to its speed 
         this.ball.rotation.z -= linearMove / this.radius;
         
-
-        // this.w max : this.acceleration/this.attrtion = 1
-        if(this.w > 0.99){
-            this.w = 1;
-        }
-        else if(this.w < 0.01 && this.w > -0.01){
-            this.w = 0;
-        }
         this.position.x = this.circleRadius * Math.sin(this.rotation.y);
         this.position.z = this.circleRadius * Math.cos(this.rotation.y);
 

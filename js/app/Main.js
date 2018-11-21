@@ -9,9 +9,13 @@ class Main {
 
         this.renderer.setSize(window.innerWidth, window.innerHeight);
         this.renderer.shadowMap.enabled = true;
-
+        /*
+        console.log(document.body.childNodes);
+        if(document.body.childNodes[2] != undefined){
+            document.body.removeChild(document.body.childNodes[2]);
+        }*/
         document.body.appendChild(this.renderer.domElement);
-        
+
         this.defaultWidth = 1152;
         this.defaultHeight = 648;
 
@@ -244,7 +248,9 @@ class Main {
 
     }
 
-
+    isPause(){
+        return this.pause;
+    }
     update(){
 
         var t = this.clock.getDelta();
