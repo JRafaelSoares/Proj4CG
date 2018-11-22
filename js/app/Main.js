@@ -48,8 +48,6 @@ class Main {
         this.scenes[0].add(this.field);
 
         //Rubik Cube
-        var geometry = new THREE.CubeGeometry(60, 60, 60);
-
         var faceFiles = ['GreenFace.png', 'BlueFace.png',
             'WhiteFace.png', 'YellowFace.png',
             'OrangeFace.png', 'RedFace.png'];
