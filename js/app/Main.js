@@ -9,11 +9,7 @@ class Main {
 
         this.renderer.setSize(window.innerWidth, window.innerHeight);
         this.renderer.shadowMap.enabled = true;
-        /*
-        console.log(document.body.childNodes);
-        if(document.body.childNodes[2] != undefined){
-            document.body.removeChild(document.body.childNodes[2]);
-        }*/
+
         document.body.appendChild(this.renderer.domElement);
 
         this.defaultWidth = 1152;
@@ -21,8 +17,6 @@ class Main {
 
         this.createCamera();
         this.createScene();
-
-        this.clock = new THREE.Clock();
         
         this.animate();
     }
@@ -41,15 +35,7 @@ class Main {
         // Intensity of the sun
         this.baseIntensity = 1;
 
-        this.axisHelper = new THREE.AxesHelper(200);
-        this.axisHelper.visible = false;
-        this.scenes[0].add(this.axisHelper);
-        
-
-        // Materials 
-        this.greyPhongMaterial = new THREE.MeshPhongMaterial({color: 0x999999});
-        this.greyGouraudMaterial = new THREE.MeshLambertMaterial({color: 0x999999}); 
-        this.greyBasicMaterial = new THREE.MeshBasicMaterial({color: 0x999999, wireframe: false});
+        this.clock = new THREE.Clock();
 
         // Field
 
@@ -61,6 +47,7 @@ class Main {
 
         this.scenes[0].add(this.field);
 
+        //Rubik Cube
         var geometry = new THREE.CubeGeometry(60, 60, 60);
 
         var faceFiles = ['GreenFace.png', 'BlueFace.png',
@@ -89,7 +76,7 @@ class Main {
         //Ball
 
         var ballTexture = new THREE.TextureLoader().load('textures/ball.jpg');
-        var ballPhongMaterial = new THREE.MeshPhongMaterial({specular:0xffffff , shininess: 4, map: ballTexture, wireframe: false});
+        var ballPhongMaterial = new THREE.MeshPhongMaterial({specular:0xffffff , shininess: 0.01, map: ballTexture, wireframe: false});
         var ballBasicMaterial = new THREE.MeshBasicMaterial({map: ballTexture, wireframe: false});
 
         this.ballRadius = 20;
@@ -97,17 +84,14 @@ class Main {
 
         this.scenes[0].add(this.ball);
 
-        //this.controls.target = this.field;
-
         // Sun Directional Light 
         this.sun = new Sun(200, 200, 0, 0xffffff, this.baseIntensity);
 
         this.scenes[0].add(this.sun);
         
-        
         // Create Pointlight
         
-        this.pointlight = new Pointlight(0, 100, 0, [0,0,0]);
+        this.pointlight = new Pointlight(0, 100, 0);
         
         this.scenes[0].add(this.pointlight);
 
@@ -116,9 +100,6 @@ class Main {
         this.scenes[1] = new THREE.Scene();
         
         var pauseTexture = new THREE.TextureLoader().load("textures/pause.jpg");
-        
-        pauseTexture.wrapS = THREE.ClampToEdgeWrapping;
-        pauseTexture.wrapT = THREE.ClampToEdgeWrapping;
 
         var pauseMaterial = new THREE.MeshBasicMaterial({map: pauseTexture});
 
@@ -148,7 +129,7 @@ class Main {
 
         this.cameraList[1].lookAt(0, 0, 0);
 
-        //Camera Controls
+        //Camera Orbit Controls
         this.controls = new THREE.OrbitControls(this.cameraList[0]);
 
         this.controls.autoRotate = true;
@@ -258,6 +239,7 @@ class Main {
         if(!this.pause){
             
             this.ball.update(t);
+
             //Makes camera AutoRotate
             this.controls.update();
         }

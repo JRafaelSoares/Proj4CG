@@ -8,11 +8,6 @@ function setup(){
 			function (e){
 				main.keyboardDownEvent(e.keyCode);
 				
-				/*
-				if(e.keyCode == 82 && main.isPause()){
-					main = new Main();
-				}*/
-				
 			}
 	);
 

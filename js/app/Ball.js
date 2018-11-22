@@ -9,7 +9,6 @@ class Ball extends GraphicalEntity{
         this.radius = radius;
         this.circleRadius = circleRadius;
 
-        this.freq = 0.1;
         this.w = 0;
         this.attrition = 0.5;
         this.acceleration = 0;
@@ -26,16 +25,18 @@ class Ball extends GraphicalEntity{
 
         this.position.set(x, y, z);
 
-        /* Create axis helper */
+        /* Create axis helper 
         this.axisHelper = new THREE.AxesHelper(this.radius * 1.5);
         this.axisHelper.visible = true;
 
         this.add(this.axisHelper);
+        */
+        
     }
 
     update(t){
         
-        // movement of the ball
+        // Movement of the ball
         var actualAcceleration = this.acceleration - this.attrition * this.w;
         this.w += actualAcceleration * t;
 

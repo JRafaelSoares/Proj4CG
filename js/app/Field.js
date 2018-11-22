@@ -21,7 +21,7 @@ class Field extends GraphicalEntity {
     }
 
     toggleWireframe(){        
-            this.base.material.wireframe = !this.base.material.wireframe;
+        this.base.material.wireframe = !this.base.material.wireframe;
     }
 
     toggleLightCalculation(){
