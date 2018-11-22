@@ -141,7 +141,7 @@ class Main {
 
         this.cameraList[0].lookAt(0, 0, 0);
 
-        this.cameraList[1] = new THREE.OrthographicCamera(window.innerWidth / -2, window.innerWidth / 2, window.innerHeight / 2, window.innerHeight / -2, 1, 1000);
+        this.cameraList[1] = new THREE.OrthographicCamera(this.defaultWidth / -2, this.defaultWidth / 2, this.defaultHeight / 2, this.defaultHeight / -2, 1, 1000);
 
 
         this.cameraList[1].position.set(0, 0, 200);
