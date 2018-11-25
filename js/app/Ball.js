@@ -2,7 +2,7 @@ class Ball extends GraphicalEntity{
     
     constructor(x, y, z, radius, circleRadius, materials){
         super();
-
+        console.log('test')
         this.baseMaterial = materials[0];
         this.basicMaterial = materials[1];
 
